@@ -18,7 +18,7 @@ MAX_STEP = 300
 RANGE_SLEEP = 0.1 # [sec]
 
 debug = False
-#env = minidora.MinidoraEnv('0.0.0.0', 'minidora-v0-mutsuki.local')
+env = minidora.MinidoraEnv('0.0.0.0', 'minidora-v0-mutsuki.local')
 
 def calc_blue_position(img):
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
